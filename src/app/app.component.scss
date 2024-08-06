@@ -1,0 +1,11 @@
+.card {
+    @apply flex flex-col bg-neutral-700 border shadow-sm rounded-xl p-4 md:p-5 m-1 md:m-3 text-white;
+
+    .primary {
+        @apply bg-green-500;
+    }
+
+    .card-body {
+        @apply flex flex-col -m-1.5 overflow-x-auto p-1.5 min-w-full align-middle overflow-hidden;
+    }
+}
